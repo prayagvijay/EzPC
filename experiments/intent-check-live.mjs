@@ -1,4 +1,4 @@
-// Live check of the AI intent check: node --env-file=.env experiments/intent-check-live.mjs
+  // Live check of the AI intent check: node --env-file=.env experiments/intent-check-live.mjs
 const root = new URL("..", import.meta.url).pathname;
 const { intentCheck } = await import(root + "/src/intent-check.mjs");
 const { LISTINGS } = await import(root + "/src/catalog.mjs");
